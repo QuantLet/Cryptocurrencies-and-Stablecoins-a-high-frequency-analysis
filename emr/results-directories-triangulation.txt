@@ -1,0 +1,10 @@
+2021-01-29__16-48-53_triangulation_arbitrage_btcusdt-btcusd-usdtusd.csv.gz
+2020-12-27__16-09-37_triangulation_arbitrage_btcusdc-btcusd-usdcusd.csv.gz
+2020-12-27__16-20-57_triangulation_arbitrage_ethusdc-ethusd-usdcusd.csv.gz
+2020-12-27__16-28-11_triangulation_arbitrage_btctusd-btcusd-tusdusd.csv.gz
+2021-01-29__17-08-53_triangulation_arbitrage_ethusdt-ethusd-usdtusd.csv.gz
+2020-12-27__16-39-34_triangulation_arbitrage_ethtusd-ethusd-tusdusd.csv.gz
+2020-12-27__16-46-12_triangulation_arbitrage_btcpax-btcusd-paxusd.csv.gz
+2020-12-27__16-56-19_triangulation_arbitrage_ethpax-ethusd-paxusd.csv.gz
+2020-12-27__17-03-40_triangulation_arbitrage_btcdai-btcusd-daiusd.csv.gz
+2020-12-27__17-13-15_triangulation_arbitrage_ethdai-ethusd-daiusd.csv.gz

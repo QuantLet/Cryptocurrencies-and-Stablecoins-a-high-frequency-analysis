@@ -1,0 +1,9 @@
+[
+  {
+    "Type": "Spark",
+    "Name": "python-cross-pair-correlation",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/cross-pair-correlation.py",
+      "{\"result_directory\":\"time-series-final\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  }
+]

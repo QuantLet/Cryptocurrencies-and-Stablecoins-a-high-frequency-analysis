@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "Masterfleet",
+    "InstanceFleetType": "MASTER",
+    "TargetSpotCapacity": 1,
+    "LaunchSpecifications": {
+      "SpotSpecification": {
+        "TimeoutDurationMinutes": 30,
+        "TimeoutAction": "SWITCH_TO_ON_DEMAND"
+      }
+    },
+    "InstanceTypeConfigs": [
+      {
+        "InstanceType": "m5.4xlarge",
+        "BidPriceAsPercentageOfOnDemandPrice": 100
+      }
+    ]
+  },
+  {
+    "Name": "Corefleet",
+    "InstanceFleetType": "CORE",
+    "TargetSpotCapacity": 1,
+    "LaunchSpecifications": {
+      "SpotSpecification": {
+        "TimeoutDurationMinutes": 30,
+        "TimeoutAction": "TERMINATE_CLUSTER"
+      }
+    },
+    "InstanceTypeConfigs": [
+      {
+        "InstanceType": "m5.4xlarge",
+        "BidPriceAsPercentageOfOnDemandPrice": 100
+      }
+    ]
+  },
+  {
+    "Name": "Taskfleet",
+    "InstanceFleetType": "TASK",
+    "TargetSpotCapacity": 6,
+    "LaunchSpecifications": {
+      "SpotSpecification": {
+        "TimeoutDurationMinutes": 30,
+        "TimeoutAction": "TERMINATE_CLUSTER"
+      }
+    },
+    "InstanceTypeConfigs": [
+      {
+        "InstanceType": "c5n.2xlarge",
+        "BidPriceAsPercentageOfOnDemandPrice": 100
+      },
+      {
+        "InstanceType": "c5.2xlarge",
+        "BidPriceAsPercentageOfOnDemandPrice": 100
+      },
+      {
+        "InstanceType": "c5d.2xlarge",
+        "BidPriceAsPercentageOfOnDemandPrice": 100
+      },
+      {
+        "InstanceType": "c4.2xlarge",
+        "BidPriceAsPercentageOfOnDemandPrice": 100
+      }
+    ]
+  }
+]

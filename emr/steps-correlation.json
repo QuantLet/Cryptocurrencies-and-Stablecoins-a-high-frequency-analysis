@@ -1,0 +1,11 @@
+[
+  {
+    "Type": "Spark",
+    "Name": "spark-correlations",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkCorrelations",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "time-series",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  }
+]

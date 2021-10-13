@@ -1,0 +1,20 @@
+[
+  {
+    "Classification": "spark-defaults",
+    "Properties": {
+      "spark.sql.files.ignoreCorruptFiles": "true",
+      "spark.driver.maxResultSize": "8g"
+    }
+  },
+  {
+    "Classification": "spark-env",
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "PYSPARK_PYTHON": "/bin/python3"
+        }
+      }
+    ]
+  }
+]

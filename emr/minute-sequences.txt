@@ -1,0 +1,2 @@
+2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz
+2021-02-07__17-30-56_complete_minute_sequence_2019-04-01_2020-10-21_1m.csv.gz

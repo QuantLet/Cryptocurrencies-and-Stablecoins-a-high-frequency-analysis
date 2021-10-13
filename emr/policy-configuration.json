@@ -1,0 +1,9 @@
+{
+  "ComputeLimits": {
+    "UnitType": "InstanceFleetUnits",
+    "MinimumCapacityUnits": 7,
+    "MaximumCapacityUnits": 24,
+    "MaximumOnDemandCapacityUnits": 4,
+    "MaximumCoreCapacityUnits": 2
+  }
+}

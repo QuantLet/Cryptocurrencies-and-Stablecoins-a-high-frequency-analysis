@@ -1,0 +1,8 @@
+2020-11-30__17-21-45_average_daily_price_USDCUSD_2019-04-01_2020-11-01.csv.gz
+2020-11-30__17-22-54_average_daily_price_TUSDUSD_2019-04-01_2020-11-01.csv.gz
+2020-11-30__17-52-44_average_daily_price_PAXUSD_2019-04-01_2020-11-01.csv.gz
+2020-11-30__17-53-23_average_daily_price_DAIUSD_2019-04-01_2020-11-01.csv.gz
+2020-11-30__18-07-26_average_daily_price_BTCUSD_2019-04-01_2020-11-01.csv.gz
+2020-11-30__18-07-36_average_daily_price_ETHUSD_2019-04-01_2020-11-01.csv.gz
+2020-11-30__18-34-39_average_daily_price_USDTUSD_2019-04-01_2020-11-01.csv.gz
+2021-02-25__11-07-42_average_daily_price_usdusd_2019-04-01Z_2020-11-01Z.csv.gz

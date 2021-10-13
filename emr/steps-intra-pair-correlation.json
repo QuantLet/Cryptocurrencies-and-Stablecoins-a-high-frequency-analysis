@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-btcusd-5m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-55-50_clean_order_book_and_trades_btcusd_1m.csv.gz\",\"interval_minutes\":5,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-btcusdt-5m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-32-37_clean_order_book_and_trades_btcusdt_1m.csv.gz\",\"interval_minutes\":5,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-ethusd-5m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-44-27_clean_order_book_and_trades_ethusd_1m.csv.gz\",\"interval_minutes\":5,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-ethusdt-5m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-43-26_clean_order_book_and_trades_ethusdt_1m.csv.gz\",\"interval_minutes\":5,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-ethbtc-5m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-42-25_clean_order_book_and_trades_ethbtc_1m.csv.gz\",\"interval_minutes\":5,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-usdtusd-5m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-45-28_clean_order_book_and_trades_usdtusd_1m.csv.gz\",\"interval_minutes\":5,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-btcusd-60m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-55-50_clean_order_book_and_trades_btcusd_1m.csv.gz\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-btcusdt-60m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-32-37_clean_order_book_and_trades_btcusdt_1m.csv.gz\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-ethusd-60m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-44-27_clean_order_book_and_trades_ethusd_1m.csv.gz\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-ethusdt-60m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-43-26_clean_order_book_and_trades_ethusdt_1m.csv.gz\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-ethbtc-60m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-42-25_clean_order_book_and_trades_ethbtc_1m.csv.gz\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "python-intra-pair-correlation-usdtusd-60m",
+    "ActionOnFailure": "CONTINUE",
+    "Args": ["s3://kaiko-delivery-qfinlab-polimi/scripts/intra-pair-correlation.py",
+      "{\"result_directory\":\"2021-05-05__13-45-28_clean_order_book_and_trades_usdtusd_1m.csv.gz\",\"interval_minutes\":60,\"bucket\":\"s3://kaiko-delivery-qfinlab-polimi/\"}"]
+  }
+]

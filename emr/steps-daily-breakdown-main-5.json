@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "Spark",
+    "Name": "spark-daily-breakdown-btcusdt",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkDailyBreakdown",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "2021-03-08__11-26-35_arbitrage_trades_BTCUSDT_2019-04-01_2020-11-01_1s.csv.gz",
+      "2020-11-30__18-34-39_average_daily_price_USDTUSD_2019-04-01_2020-11-01.csv.gz",
+      "2020-11-30__18-07-26_average_daily_price_BTCUSD_2019-04-01_2020-11-01.csv.gz",
+      "2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "spark-daily-breakdown-ethusdt",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkDailyBreakdown",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "2021-03-08__12-50-17_arbitrage_trades_ETHUSDT_2019-04-01_2020-11-01_1s.csv.gz",
+      "2020-11-30__18-34-39_average_daily_price_USDTUSD_2019-04-01_2020-11-01.csv.gz",
+      "2020-11-30__18-07-36_average_daily_price_ETHUSD_2019-04-01_2020-11-01.csv.gz",
+      "2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "spark-daily-breakdown-ethusd",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkDailyBreakdown",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "2021-03-08__13-20-01_arbitrage_trades_ETHUSD_2019-04-01_2020-11-01_1s.csv.gz",
+      "2021-02-25__11-07-42_average_daily_price_usdusd_2019-04-01Z_2020-11-01Z.csv.gz",
+      "2020-11-30__18-07-36_average_daily_price_ETHUSD_2019-04-01_2020-11-01.csv.gz",
+      "2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "spark-daily-breakdown-btcusd",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkDailyBreakdown",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "2021-03-08__12-50-03_arbitrage_trades_BTCUSD_2019-04-01_2020-11-01_1s.csv.gz",
+      "2021-02-25__11-07-42_average_daily_price_usdusd_2019-04-01Z_2020-11-01Z.csv.gz",
+      "2020-11-30__18-07-26_average_daily_price_BTCUSD_2019-04-01_2020-11-01.csv.gz",
+      "2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "spark-daily-breakdown-ethbtc",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkDailyBreakdown",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "2021-03-08__12-01-34_arbitrage_trades_ETHBTC_2019-04-01_2020-11-01_1s.csv.gz",
+      "2020-11-30__18-07-26_average_daily_price_BTCUSD_2019-04-01_2020-11-01.csv.gz",
+      "2020-11-30__18-07-36_average_daily_price_ETHUSD_2019-04-01_2020-11-01.csv.gz",
+      "2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  },
+  {
+    "Type": "Spark",
+    "Name": "spark-daily-breakdown-usdtusd",
+    "ActionOnFailure": "TERMINATE_CLUSTER",
+    "Args": ["--class", "main.scala.SparkDailyBreakdown",
+      "s3://kaiko-delivery-qfinlab-polimi/scripts/sparktrades_2.12-0.1.jar",
+      "2021-03-08__13-48-40_arbitrage_trades_USDTUSD_2019-04-01_2020-11-01_1s.csv.gz",
+      "2021-02-25__11-07-42_average_daily_price_usdusd_2019-04-01Z_2020-11-01Z.csv.gz",
+      "2020-11-30__18-34-39_average_daily_price_USDTUSD_2019-04-01_2020-11-01.csv.gz",
+      "2021-02-07__17-31-33_complete_minute_sequence_2019-04-01_2020-10-21_5m.csv.gz",
+      "s3://kaiko-delivery-qfinlab-polimi/"]
+  }
+]
