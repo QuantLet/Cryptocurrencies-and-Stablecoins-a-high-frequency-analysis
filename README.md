@@ -1,5 +1,6 @@
 # intraday-project
 Repository for "Cryptocurrencies and Stablecoins: a high frequency analysis"
+
 E. Barucci, G. Giuffra, D. Marazzina
 
 ## Requirements
