@@ -1,4 +1,4 @@
-Name of Quantlet: 'Cryptocurrencies-and-Stablecoins-a-high-frequency-analysis'
+Name of Quantlet: Cryptocurrencies-and-Stablecoins-a-high-frequency-analysis
 Published in: 'Cryptocurrencies and Stablecoins: a high frequency analysis'
 Description: 'We analyze cryptoasset markets (cryptocurrencies and stablecoins) at high frequency. We investigate intraday patterns. We show that Tether plays a crucial role as a safe haven and/or store of value facilitating trading in cryptocurrencies without going through traditional currencies. Markets centered on cryptocurrencies and stablecoins play a primary role aggregating preference/technology shocks and heterogeneous opinions, instead markets centered on the US Dollar play a marginal role on price formation.'
 Keywords: stablecoin, cryptocurrency, intraday, time series, high frequency
